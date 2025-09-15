@@ -28,6 +28,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.8
   flame: ^1.32.0
+  flame_audio: ^2.1.4
 
 dev_dependencies:
   flutter_test:
@@ -44,8 +45,10 @@ flutter:
   uses-material-design: true
   assets:
     - assets/images/
-    - assets/icons/
     - assets/audio/
+    - assets/images/icons/pause.png
+    - assets/images/icons/play.png
+    - assets/images/coin.png
 
   # To add Flutter specific assets to your application, add an assets section,
   # like this:
